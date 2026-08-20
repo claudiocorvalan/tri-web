@@ -24,4 +24,4 @@ El comando revisa el código, genera la carpeta `out` y ejecuta las pruebas del 
 - Salida: `out`
 - Node.js: 22
 
-La integración Git de Cloudflare realiza el despliegue. Consulta `GUIA_CLOUDFLARE.md` para configuración, pruebas y límites del plan gratuito.
+GitHub Actions verifica y publica automáticamente la rama `main` mediante Cloudflare Wrangler. Consulta `GUIA_PUBLICACION.md` para configurar los secretos, el proyecto y el dominio.
