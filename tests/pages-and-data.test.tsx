@@ -37,8 +37,9 @@ describe("contenido y rutas institucionales", () => {
 
   it("genera el sitemap canónico con prioridades", () => {
     const entries = sitemap();
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://tri-ingenieria.pages.dev";
     expect(entries).toHaveLength(7);
-    expect(entries[0]).toMatchObject({ url: "https://tri-ingenieria.pages.dev/", priority: 1, changeFrequency: "monthly" });
+    expect(entries[0]).toMatchObject({ url: `${baseUrl}/`, priority: 1, changeFrequency: "monthly" });
     expect(entries.find(({ url }) => url.endsWith("/proyectos/"))?.priority).toBe(0.9);
     expect(entries.filter(({ changeFrequency }) => changeFrequency === "yearly")).toHaveLength(6);
   });
