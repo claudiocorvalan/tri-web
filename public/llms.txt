@@ -1,0 +1,18 @@
+# Tri Ingeniería
+
+Sitio institucional de Sociedad de Profesionales Tri Ingeniería Limitada, proveedor del Estado chileno especializado en proyectos de medición del aprendizaje y servicios afines.
+
+## Secciones principales
+
+- /nosotros/: historia, misión, visión y valores.
+- /servicios/: gestión de recursos humanos, aplicación de instrumentos, digitalización y captura de datos.
+- /proyectos/: once proyectos ejecutados o en curso para la Agencia de Calidad de la Educación desde 2014, con alcance e identificadores de licitación.
+- /calidad-e-integridad/: sistema de gestión de calidad ISO 9001:2015 y Programa de Integridad.
+- /trabaja-con-nosotros/: perfiles frecuentes y postulación.
+- /contacto/: canal institucional de contacto.
+
+## Límites declarados
+
+Los contactos de referencia de los mandantes no se publican por confidencialidad. El detalle operativo de ERCE experimental 2024 y del proyecto 2026 está pendiente de sistematización. Las postulaciones se canalizan externamente mediante yosimce.cl y el formulario institucional de contacto no transmite información hasta conectarse con un servicio de recepción.
+
+Última actualización de antecedentes de proyectos: 18 de agosto de 2026.
