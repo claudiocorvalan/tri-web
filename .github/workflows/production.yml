@@ -10,6 +10,9 @@ permissions:
   contents: read
   deployments: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: cloudflare-production
   cancel-in-progress: false
@@ -26,7 +29,7 @@ jobs:
       NEXT_PUBLIC_SITE_URL: ${{ vars.PRODUCTION_SITE_URL || 'https://tri-web.pages.dev' }}
     steps:
       - name: Descargar código
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Preparar pnpm
         uses: pnpm/action-setup@v4
@@ -34,7 +37,7 @@ jobs:
           version: 11.9.0
 
       - name: Preparar Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: pnpm
